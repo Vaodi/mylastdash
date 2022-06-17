@@ -9,6 +9,7 @@ const url = `https://api.openweathermap.org/data/2.5/weather?lat=51.5073219&lon=
 
 
 export const userColumns = [
+  
   { field: "id", headerName: "ID", width: 70 },
 
   {
@@ -18,20 +19,20 @@ export const userColumns = [
     renderCell: (params) => {
       return (
         <div className="cellWithImg">
-          <img className="cellImg" src={params.row.img} alt="avatar" />
+         
           {params.row.username}
         </div>
       );
     },
   },
   {
-    field: "amount",
+    field: "Amount",
     headerName: "Amount",
     width: 150,
   },
 
   {
-    field: "email",
+    field: "name",
     headerName: "Interest Rate",
     width: 150,
   },

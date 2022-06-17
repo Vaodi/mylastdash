@@ -7,8 +7,18 @@ import Navbar from "../../components/navbar/Navbar";
 import List from "../../components/table/Table";
 // import Featured from "../../components/featured/Featured";
 // import Chart from "../../components/chart/Chart";
+import useFetch from '../../hooks/useFetch';
 
 const Single = () => {
+
+  // const {data,loading,error} = useFetch("https://jsonplaceholder.typicode.com/users")
+  
+  // if (loading) return <h1>Loading...</h1>
+  // if(error) console.log(error);
+
+
+  
+
   return (
     <div className="single">
       <Sidebar />
@@ -25,7 +35,7 @@ const Single = () => {
                 className="itemImg"
               />
               <div className="details">
-                <h1 className="itemTitle">Jane Doe</h1>
+                <h1 className="itemTitle">Elise Martin</h1>
                 <div className="detailItem">
                   <span className="itemKey">Email:</span>
                   <span className="itemValue">janedoe@gmail.com</span>

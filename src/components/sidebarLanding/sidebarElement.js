@@ -16,7 +16,7 @@ left: 0;
 transition: 0.3 ease-in-out;
 opacity: ${({ isOpen }) => (isOpen ? "100%" : "0") };
 top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
-top:0;
+z-index: 999;
 
 `
 

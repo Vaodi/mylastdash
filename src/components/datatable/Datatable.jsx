@@ -13,14 +13,23 @@ import useFetch from "../../hooks/useFetch";
 
 const Datatable = () => {
 
-  const {data,loading,error} = useFetch("https://jsonplaceholder.typicode.com/users")
-  console.log(data)
+  
+    const {data,loading,error}=useFetch("https://jsonplaceholder.typicode.com/users")
+    
+    console.log(data.id)
+
+
+  
+
+  
+  
 
   const actionColumn = [{field:"action", headerName:"Action" , width : 200, renderCell:()=>{
     return (
       <div className="cellAction">
       {/* replace the test part with a dynamic var from Database */}
-      <Link to="/users/test" style={{ textDecoration: "none"}} >
+      {/* <Link to={"/users/" + data.id} style={{ textDecoration: "none"}} > */}
+      <Link to="/users/test">
         <div className="viewButton">View</div>
         </Link>
         
@@ -38,11 +47,13 @@ const Datatable = () => {
         checkboxSelection
         
       />
-
+      <p>ceci est un test : </p>
       
 
     </div>
+    
   )
+  
 }
 
 export default Datatable
