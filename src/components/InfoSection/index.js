@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
 import image from "../../images/image1.jpg";
+
 import {
   InfoContainer,
   InfoWrapper,
@@ -13,7 +14,9 @@ import {
   Subtitle,
   BtnWrap,
   ImgWrap,
-  Img
+  Img,
+  NavBtnInfo,
+  NavBtnLinkInfo
 } from './InfoElements';
 
 const InfoSection = ({
@@ -48,6 +51,9 @@ const InfoSection = ({
                 <Subtitle >Collateralized: Agri processors provide off-chain assets like equipment, purchase orders and invoices as collateral</Subtitle>
                 <Subtitle >Diversification: Lenders diversify by investing in a market uncorrelated with cryptocurrency.
 </Subtitle>
+<NavBtnInfo>
+                    <NavBtnLinkInfo to="/dashboard">Sign Up as a Backer</NavBtnLinkInfo>
+                </NavBtnInfo>
              
               </TextWrapper>
             </Column1>

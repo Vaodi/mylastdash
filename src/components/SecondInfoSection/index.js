@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
 import image from "../../images/image2.jpg";
+import { NavBtnInfo,NavBtnLinkInfo } from '../InfoSection/InfoElements';
 import {
   InfoContainer,
   InfoWrapper,
@@ -53,6 +54,9 @@ const SecondInfoSection = ({
                  <Subtitle>Lower Interest Rates: 10-12 % interest</Subtitle>
                 <Subtitle >Borrow on Your Terms: Borrowers propose the terms of the loan including tenor, interest rates and collateral</Subtitle>
                 <Subtitle >Fast: get funded 5x faster than banks and traditional financiers</Subtitle>
+                <NavBtnInfo>
+                    <NavBtnLinkInfo to="/dashboard">Sign Up as a borrower</NavBtnLinkInfo>
+                </NavBtnInfo>
                 
              
               </TextWrapper>

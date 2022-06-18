@@ -10,7 +10,7 @@ import List from "../../components/table/Table";
 import useFetch from '../../hooks/useFetch';
 import useFetch2 from '../../hooks/useFetch2';
 
-const Single = () => {
+const Single1 = () => {
 
   // const {data,loading,error} = useFetch("https://api.mocki.io/v2/046cd182")
   // console.log(data[0].username)
@@ -44,32 +44,32 @@ const Single = () => {
                 className="itemImg"
               />
               <div className="details">
-                <h1 className="itemTitle">{data?.response[0].username} </h1>
+                <h1 className="itemTitle">{data?.response[1].username} </h1>
                 <div className="detailItem">
                   <span className="itemKey">Website:</span>
-                  <span className="itemValue">{data?.response[0].website}</span>
+                  <span className="itemValue">{data?.response[1].website}</span>
                 </div>
                 <div className="detailItem">
                   <span className="itemKey">Due Diligence Folder:</span>
-                  <span className="itemValue">{data?.response[0].DueDiligence}</span>
+                  <span className="itemValue">{data?.response[1].DueDiligence}</span>
                 </div>
                 <div className="detailItem">
                   <span className="itemKey">Loan Amount:</span>
                   <span className="itemValue">
-                  {data?.response[0].funded_amount}
+                  {data?.response[1].funded_amount}
                   </span>
                 </div>
                 <div className="detailItem">
                   <span className="itemKey">Interest rate:</span>
-                  <span className="itemValue">{data?.response[0].InterestRate}</span>
+                  <span className="itemValue">{data?.response[1].InterestRate}</span>
                 </div>
                 <div className="detailItem">
                   <span className="itemKey">Tenor:</span>
-                  <span className="itemValue">{data?.response[0].Tenor}</span>
+                  <span className="itemValue">{data?.response[1].Tenor}</span>
                 </div>
                 <div className="detailItem">
                   <span className="itemKey">Funded Amount %:</span>
-                  <span className="itemValue">{data?.response[0].funded_amount}</span>
+                  <span className="itemValue">{data?.response[1].funded_amount}</span>
                 </div>
                
               </div>
@@ -92,4 +92,4 @@ const Single = () => {
   );
 };
 
-export default Single;
+export default Single1;
