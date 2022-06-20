@@ -38,11 +38,11 @@ const InfoSection = ({
   console.log(primary);
   return (
     <>
-      <InfoContainer lightBg={lightBg} id={id}>
+      <InfoContainer className="about" lightBg={lightBg} id={id}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
             <Column1>
-              <TextWrapper>
+              <TextWrapper >
                 <Heading lightText={lightText}>What we do for backers</Heading>
                 <TopLine>There are two kinds of Lenders: Backers and Senior Debt providers.
                  Backers  assess the borrowers and decide whether to supply first-loss capital.</TopLine>
@@ -52,7 +52,7 @@ const InfoSection = ({
                 <Subtitle >Diversification: Lenders diversify by investing in a market uncorrelated with cryptocurrency.
 </Subtitle>
 <NavBtnInfo>
-                    <NavBtnLinkInfo to="/dashboard">Sign Up as a Backer</NavBtnLinkInfo>
+                    <NavBtnLinkInfo to="/signup">Sign Up as a Backer</NavBtnLinkInfo>
                 </NavBtnInfo>
              
               </TextWrapper>

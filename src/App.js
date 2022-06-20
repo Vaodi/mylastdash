@@ -19,7 +19,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-
+import SignIn from "./pages/Sign In/index.js";
+import SignUp from "./pages/SignUp/index.js";
 
 
 function App() {
@@ -45,6 +46,12 @@ function App() {
         <Route path="6" element={<Single5/>}/>
         <Route path="7" element={<Single6/>}/>
         <Route path="new" element={<New/>}/>
+    </Route>
+    <Route path="/SignIn">
+    <Route index element={<SignIn />} />
+    </Route>
+    <Route path="/SignUp">
+    <Route index element={<SignUp />} />
     </Route>
       <Route path="products">
         <Route index element={<List/>}/>

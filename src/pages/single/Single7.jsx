@@ -68,7 +68,7 @@ const Single7 = () => {
                   <span className="itemValue">{data?.response[7].Tenor}</span>
                 </div>
                 <div className="detailItem">
-                  <span className="itemKey">Funded Amount %:</span>
+                  <span className="itemKey">Funded Amount :</span>
                   <span className="itemValue">{data?.response[7].funded_amount}</span>
                 </div>
                

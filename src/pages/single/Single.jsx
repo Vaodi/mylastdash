@@ -9,6 +9,8 @@ import List from "../../components/table/Table";
 // import Chart from "../../components/chart/Chart";
 import useFetch from '../../hooks/useFetch';
 import useFetch2 from '../../hooks/useFetch2';
+import ProgressBar from '../../components/progressBar/ProgressBar';
+import { NavBtnSingle,NavBtnLinkSingle } from '../../components/navbarLanding/NavbarElement';
 
 const Single = () => {
 
@@ -68,19 +70,21 @@ const Single = () => {
                   <span className="itemValue">{data?.response[0].Tenor}</span>
                 </div>
                 <div className="detailItem">
-                  <span className="itemKey">Funded Amount %:</span>
+                  <span className="itemKey">Funded Amount :</span>
                   <span className="itemValue">{data?.response[0].funded_amount}</span>
                 </div>
-               
+                
+                <button className="button-71">Fund now</button>
               </div>
+              
             </div>
+            
           </div>
            
         </div>
-        <div className="bottom">
-        <h1 className="title">Last Transactions</h1>
-          <List/>
-        </div>
+
+        
+       
         {/* test */}
         <div className="charts"></div>
         {/* <Featured /> */}

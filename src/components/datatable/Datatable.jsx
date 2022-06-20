@@ -94,7 +94,7 @@ const Datatable = () => {
         
       />
       
-      <p>ceci est un test : </p>
+      
 
       {/* html part of wallet  */}
 

@@ -39,7 +39,7 @@ const Single5 = () => {
             <h1 className="title">Information</h1>
             <div className="item">
               <img
-                src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                src="https://images.pexels.com/photos/2406949/pexels-photo-2406949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt=""
                 className="itemImg"
               />
@@ -68,19 +68,16 @@ const Single5 = () => {
                   <span className="itemValue">{data?.response[5].Tenor}</span>
                 </div>
                 <div className="detailItem">
-                  <span className="itemKey">Funded Amount %:</span>
+                  <span className="itemKey">Funded Amount :</span>
                   <span className="itemValue">{data?.response[5].funded_amount}</span>
                 </div>
-               
+                <button className="button-71">Fund now</button>
               </div>
             </div>
           </div>
            
         </div>
-        <div className="bottom">
-        <h1 className="title">Last Transactions</h1>
-          <List/>
-        </div>
+  
         {/* test */}
         <div className="charts"></div>
         {/* <Featured /> */}

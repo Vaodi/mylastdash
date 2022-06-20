@@ -16,9 +16,9 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
     </HeroBg>
     <HeroContent>
-        <HeroH1> FarmerDAO: Onchain loans for Agri processors</HeroH1>
+        <HeroH1> FarmDAO: Onchain loans for Agri processors</HeroH1>
         <HeroP>
-        FarmerDAO protocol allows ICP holders to extend credit to Agri processors in developing markets.
+        FarmDAO protocol allows ICP holders to extend credit to Agri processors in developing markets.
 
         </HeroP>
         <HeroBtnWrapper>

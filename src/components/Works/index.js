@@ -16,7 +16,7 @@ import {
 const Services = () => {
   return (
     <ServicesContainer id='services'>
-      <ServicesH1>How it works if you borrow</ServicesH1>
+      <ServicesH1 >How it works if you borrow</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
@@ -33,7 +33,7 @@ const Services = () => {
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Some Title</ServicesH2>
+          <ServicesH2>Protocol Application</ServicesH2>
           <ServicesP>
           The Protocol Assesses the application and disburses funds to the borrower’s wallet
 

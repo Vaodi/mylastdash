@@ -20,14 +20,14 @@ const Services2 = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Title</ServicesH2>
+          <ServicesH2>Auditors Assignment</ServicesH2>
           <ServicesP>
           Randomly assigned Auditors vote to approve borrowers. Auditors are randomly assigned to prevent collusion. 
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} />
-          <ServicesH2>Title</ServicesH2>
+          <ServicesH2>Backers Investment</ServicesH2>
           <ServicesP>
           Upon approval, Backers assess borrowers and decide whether to supply first-loss capital, which is allocated to the junior tranche of the loan       </ServicesP>
         </ServicesCard>
@@ -41,7 +41,7 @@ const Services2 = () => {
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} />
-          <ServicesH2>Some Title</ServicesH2>
+          <ServicesH2>Getting Paid Back</ServicesH2>
           <ServicesP>
           Upon loan repayment, Senior debt is paid first, then Backers, then Auditors to ensure everyone’s interests are aligned.
 

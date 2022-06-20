@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
-import image from "../../images/image2.jpg";
+import image from "../../images/moneysolution.svg";
 import { NavBtnInfo,NavBtnLinkInfo } from '../InfoSection/InfoElements';
 import {
   InfoContainer,
@@ -36,7 +36,7 @@ const SecondInfoSection = ({
   console.log(primary);
   return (
     <>
-      <InfoContainer lightBg={lightBg} id={id}>
+      <InfoContainer className="discover"lightBg={lightBg} id={id}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
             <Column1>
@@ -55,7 +55,7 @@ const SecondInfoSection = ({
                 <Subtitle >Borrow on Your Terms: Borrowers propose the terms of the loan including tenor, interest rates and collateral</Subtitle>
                 <Subtitle >Fast: get funded 5x faster than banks and traditional financiers</Subtitle>
                 <NavBtnInfo>
-                    <NavBtnLinkInfo to="/dashboard">Sign Up as a borrower</NavBtnLinkInfo>
+                    <NavBtnLinkInfo to="/signup">Sign Up as a borrower</NavBtnLinkInfo>
                 </NavBtnInfo>
                 
              
